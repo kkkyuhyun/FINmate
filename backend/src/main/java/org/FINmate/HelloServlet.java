@@ -1,4 +1,4 @@
-package org.com.backend;
+package org.FINmate;
 
 import java.io.*;
 import javax.servlet.http.*;
