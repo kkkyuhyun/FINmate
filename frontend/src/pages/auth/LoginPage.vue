@@ -31,24 +31,6 @@
 </script>
 
 <style scoped>
-.wrap {
-    background-color: #ffffff;
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wrap_box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: auto;
-    border-radius: 50px;
-    box-shadow: 0px 0px 50px 0px rgb(180, 180, 180);
-}
-
 .wrap_box_intro {
     width: 750px;
     height: 550px;
@@ -85,7 +67,7 @@ input {
     margin-bottom: 16px;
 }
 
-ul {
+.wrap_box_auth ul {
     display: flex;
     justify-content: space-around;
     margin: 10px 20px 0px 20px;

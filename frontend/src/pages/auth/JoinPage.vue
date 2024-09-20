@@ -32,26 +32,11 @@
 
 <style scoped>
 .wrap {
-    background-color: #ffffff;
-    width: 100%;
-    height: 90vh;
-    text-align: center;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .wrap_box {
-    width: 1200px;
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    background-size: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 50px 0px rgb(180, 180, 180);
 }
 
 .wrap_box_auth {
@@ -67,7 +52,7 @@
     font-weight: 600;
 }
 
-ul {
+.wrap_box_auth ul {
     display: flex;
     justify-content: space-around;
     margin: 10px 20px 0px 20px;
