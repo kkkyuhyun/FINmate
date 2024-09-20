@@ -31,6 +31,10 @@
 </script>
 
 <style scoped>
+.wrap {
+    background-color: var(--background-color);
+}
+
 .wrap_box_intro {
     width: 750px;
     height: 550px;

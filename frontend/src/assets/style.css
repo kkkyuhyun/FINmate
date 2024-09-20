@@ -32,6 +32,7 @@
     --header-color: #BAC4DD;
     --sidebar-color: #798CBC;
     --btn-blue: #a8d1fd;
+    --background-color: #ebedf1;
 }
 
 * {
@@ -68,7 +69,6 @@ h2 {
 }
 
 .wrap {
-    background-color: #ffffff;
     width: 100%;
     height: 100dvh;
     text-align: center;
@@ -78,6 +78,7 @@ h2 {
 }
 
 .wrap_box {
+    background-color: var(--color-white);
     width: 1200px;
     height: 550px;
     display: flex;

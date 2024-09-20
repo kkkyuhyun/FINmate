@@ -7,16 +7,16 @@ import { ref } from 'vue';
 const isSidebar = ref(false);
 
 function btnSidebar() {
-  isSidebar.value = !isSidebar.value;
+    isSidebar.value = !isSidebar.value;
 }
 </script>
 
 <template>
-  <div>
-    <Header @toggle_sidebar="btnSidebar" />
-    <Sidebar :isOpen="isSidebar" @toggle_sidebar="btnSidebar" />
-      <slot></slot>
-    <!-- <Footer /> -->
-  </div>
+    <div>
+        <Header @toggle_sidebar="btnSidebar" />
+        <Sidebar :isOpen="isSidebar" @toggle_sidebar="btnSidebar" />
+        <slot></slot>
+        <!-- <Footer /> -->
+    </div>
 </template>
 

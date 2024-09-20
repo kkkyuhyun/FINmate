@@ -32,6 +32,10 @@
 
 <style scoped>
 .wrap {
+    background-color: var(--background-color);
+}
+
+.wrap {
     flex-direction: column;
 }
 

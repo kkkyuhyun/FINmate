@@ -1,11 +1,7 @@
 <template>
-  <div class="wrap">
-    <h1>Home Page</h1>
-    <h1>Home Page</h1>
-    <h1>Home Page</h1>
-    <h1>Home Page</h1>
-    <h1>Home Page</h1>
-  </div>
+    <div class="wrap">
+        
+    </div>  
 </template>
 
 <style scoped>

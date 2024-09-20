@@ -26,6 +26,10 @@
 </script>
 
 <style scoped>
+.wrap {
+    background-color: var(--background-color);
+}
+
 .wrap_box {
     flex-direction: column;
 }
