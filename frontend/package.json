@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^1.7.7",
+<<<<<<< HEAD
     "bootstrap": "^5.3.3",
     "moment": "^2.30.1",
     "package.json": "^2.0.1",
@@ -17,6 +18,10 @@
     "vue": "^3.4.37",
     "vue-awesome-paginate": "^1.2.0",
     "vue-router": "^4.3.0"
+=======
+    "vue": "^3.4.37",
+    "vue-router": "^4.0.13"
+>>>>>>> a859b413ed6f345be154b53a9d6a6a2765ec72d9
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",

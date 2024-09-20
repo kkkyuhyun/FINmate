@@ -19,10 +19,6 @@
 </template>
 
 <style scoped>
-.wrap {
-    background-color: var(--background-color);
-}
-
 .container {
     width: 1400px;
     margin: auto;
