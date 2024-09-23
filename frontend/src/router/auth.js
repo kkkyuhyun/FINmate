@@ -19,4 +19,14 @@ export default [
         name: 'findPw',
         component: () => import('../pages/auth/findPw.vue'),
     },
+    {
+        path: '/modify',
+        name: 'modify',
+        component: () => import('../pages/auth/Modify.vue'),
+    },
+    {
+        path: '/total',
+        name: 'total',
+        component: () => import('../pages/auth/Total.vue'),
+    },
 ];
