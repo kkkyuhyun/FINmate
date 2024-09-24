@@ -35,13 +35,12 @@
     background-color: var(--background-color);
 }
 
-.wrap {
-    flex-direction: column;
-}
-
 .wrap_box {
     flex-direction: column;
+    width: 1200px;
+    height: 550px;
 }
+
 
 .wrap_box_auth {
     width: 450px;

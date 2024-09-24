@@ -10,9 +10,13 @@ export default [
         component: () => import('../pages/group/GroupFirst.vue'),
     },
     {
-        path: '/Tokyo',
-        name: 'Tokyo',
-        component: () => import('../pages/group/Tokyo.vue'),
+        path: '/groupDetail',
+        name: 'groupDetail',
+        component: () => import('../pages/group/GroupDetail.vue'),
     },
-    
+    {
+        path: '/boardDetail',
+        name: 'boardDetail',
+        component: () => import('../pages/group/BoardDetail.vue'),
+    },
 ];

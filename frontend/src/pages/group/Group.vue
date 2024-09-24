@@ -24,7 +24,7 @@ export default {
             this.$router.push('/CreateGroup');
         },
         router_groupPage() {
-            this.$router.push('/Tokyo');
+            this.$router.push('/GroupDetail');
         },
     },
 };
@@ -54,6 +54,8 @@ export default {
     flex-direction: column;
     float: left;
     text-align: left;
+    box-shadow: 0px 0px 10px 0px rgb(180, 180, 180);
+
 }
 
 .group_box h1 {

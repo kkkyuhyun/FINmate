@@ -98,7 +98,6 @@ import Borad from './BoradList.vue';
 .cal div {
     width: 100%;
     height: 100%;
-    background-color: var(--btn-blue);
 }
 
 .group_box {
@@ -171,19 +170,4 @@ import Borad from './BoradList.vue';
     width: 100%;
     height: 30px;
 }
-
-.member_box {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: var(--btn-blue);
-    border-radius: 10px;
-}
-
-.member_img {
-    width: 45px;
-    border-radius: 100px;
-    margin: 0 20px;
-}
-
 </style>

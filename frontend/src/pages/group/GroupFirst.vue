@@ -2,21 +2,24 @@
     <div class="wrap">
         <div class="container">
             <div class="item cal">
-                <div>캘린더</div>
+                <div>설명하는 부분</div>
             </div>
-            <div class="item group">
-                <div>모임1</div>
-                <div>모임2</div>
-            </div>
-            <div class="item sns">
-                <div>sns</div>
-                <div>sns</div>
-                <div>sns</div>
-                <div>sns</div>
+            <div class="item group_box" @click="router_createGroup">
+                <p class="plus">+</p>
             </div>
         </div>  
     </div>
 </template>
+
+<script>
+export default {
+    methods: {
+        router_createGroup() {
+            this.$router.push('/CreateGroup');
+        },
+    },
+};
+</script>
 
 <style scoped>
 .container {
@@ -28,6 +31,7 @@
 	column-gap: 10px;
     text-align: center;
 }
+
 .item {
     margin: 7px;
     padding: 10px;
@@ -37,47 +41,40 @@
     justify-content: center;
     align-items: center;
 }
+
 .item:nth-child(1) {
-	grid-column: 1 / span 2;
+	grid-column: 1 / span 4;
     height: 500px;
     
 }
+
 .item:nth-child(2) { 
-    grid-column: 1 /span 1;
-    height: 300px;
-    justify-content: space-between;
+    grid-column: 3 /span 1;
 }
 
-.item:nth-child(3) { 
-    grid-column: 2 /span 1;
-    height: 300px;
-    flex-direction: column;
-}
 .cal div {
     width: 100%;
     height: 100%;
     background-color: var(--btn-blue);
 }
 
-.group div{
-    margin-right: 10px;
-    width: 100%;
-    height: 100%;
+.group_box {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 30px;
     background-color: var(--btn-blue);
-}
-.group div:last-child{
-    margin-right: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.sns div {
-    margin-bottom: 10px;
-    width: 100%;
-    height: 30%;
-    background-color: var(--btn-blue);
-}
-
-.sns div:last-child {
-    margin-bottom: 0px;
+.plus {
+    font-size: 150px;
+    margin: 0;
+    padding-bottom: 50px;
 }
 
 </style>
