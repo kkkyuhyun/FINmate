@@ -1,15 +1,19 @@
 <script setup>
-import Snslist from './Snslist.vue';
-import Snslist2 from './Snslist2.vue';
-import MyGoal from './MyGoal.vue';
+    import Snslist from './Snslist.vue';
+    import Snslist2 from './Snslist2.vue';
 </script>
 
 <template>
     <div class="wrap">
         <div class="container">
             <!-- 목표 -->
-            <div class="item goal">
-                <MyGoal></MyGoal>
+            <div class="item flex">
+                <div class="goal_comment">
+                    <h1>나만의 목표를 설정해 보세요!</h1>
+                </div>
+                <div class="group_box" @click="router_myGoal" >
+                    <p class="plus">+</p>
+                </div>
             </div>
             
             <!-- sns -->
@@ -49,7 +53,6 @@ export default {
 </script>
 
 <style scoped>
-
 .item {
     margin: 7px;
     padding: 10px;
@@ -59,20 +62,36 @@ export default {
 .item:nth-child(1) {
 	grid-column: 1 / span 1;
     height: 200px;
-    
 }
 .item:nth-child(2) { 
     grid-column: 1 /span 1;
     height: 600px;
 }
 
-.goal {
-    display: flex
+.goal_comment {
+    padding-left: 100px;
 }
 
-.sns {
+.group_box {
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    margin: 0 10px;
+    margin-left: auto;
+    cursor: pointer;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 177, 177);
 }
+
+.plus {
+    font-size: 150px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
 
 </style>

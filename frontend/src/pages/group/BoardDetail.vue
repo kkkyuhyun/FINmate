@@ -93,7 +93,7 @@
 }
 
 .board_body {
-    padding: 20px 30px;
+    padding: 30px;
     text-align: left;
 }
 

@@ -1,19 +1,16 @@
+<script setup>
+</script>
+
 <template>
-    <div class="wrap">
-        <div class="container">
-            <div class="group_box" @click="router_createGroup" >
-                <p class="plus">+</p>
-            </div>
-            <div class="group_box" @click="router_groupPage">
-                <h1>Finmate</h1>
-                <h1>도쿄여행</h1>
-                <img src="../../assets/images/boat.jpg" class="group_box_img">
-            </div>
-            <div class="group_box">3</div>
-            <div class="group_box">4</div>
-            <div class="group_box">5</div>
-            <div class="group_box">6</div>
-        </div>  
+    <div class="snslist2">
+        <div class="group_box" @click="router_createGroup" >
+            <p class="plus">+</p>
+        </div>
+        <div class="group_box">2</div>
+        <div class="group_box">3</div>
+        <div class="group_box">4</div>
+        <div class="group_box">5</div>
+        <div class="group_box">6</div>
     </div>
 </template>
 
@@ -31,15 +28,16 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.snslist2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .group_box {
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 200px;
     margin: 10px;
     border-radius: 30px;
     background-color: var(--btn-blue);

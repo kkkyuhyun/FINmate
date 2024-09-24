@@ -60,15 +60,6 @@ import Borad from './BoradList.vue';
 </template>
 
 <style scoped>
-.container {
-    width: 1400px;
-    margin: auto;
-    margin-top: 100px;
-	display: grid;
-    row-gap: 10px;
-	column-gap: 10px;
-    text-align: center;
-}
 .item {
     margin: 7px;
     padding: 10px;

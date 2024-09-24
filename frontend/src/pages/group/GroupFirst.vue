@@ -72,7 +72,8 @@ export default {
 }
 
 .plus {
-    font-size: 150px;
+    font-size: 200px;
+    font-weight: 600;
     margin: 0;
     padding-bottom: 50px;
 }

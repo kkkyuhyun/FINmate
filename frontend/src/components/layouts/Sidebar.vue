@@ -5,9 +5,10 @@
             <ul>
                 <li><router-link to="/" class="sidebar_menu_li">home</router-link></li>
                 <li><router-link to="/login" class="sidebar_menu_li">login</router-link></li>
-                <li><router-link to="/groupfirst" class="sidebar_menu_li">groupfirst</router-link></li>
                 <li><router-link to="/group" class="sidebar_menu_li">group</router-link></li>
+                <li><router-link to="/groupfirst" class="sidebar_menu_li">groupfirst</router-link></li>
                 <li><router-link to="/sns" class="sidebar_menu_li">sns</router-link></li>
+                <li><router-link to="/snsfirst" class="sidebar_menu_li">snsfirst</router-link></li>
             </ul>
         </div>
     </aside>
