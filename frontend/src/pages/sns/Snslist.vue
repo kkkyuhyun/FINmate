@@ -1,31 +1,34 @@
 <template>
-    <!-- 개별 sns -->
-    <div class="sns_box">
-        <div class="member_box">
-            <img src="../../assets/images/member.jpg" class=" member_img">
-            <h3>황근원</h3>
-        </div>
+    <div v-for="(sns, index) in snsList" :key="index" class="sns_box">
         <div>
-            <h3>님(이) 목표금액 50% 달성했습니다</h3>
+            <h3>{{ sns.name }}님(이) 목표금액 {{ sns.goalPercent }}% 달성했습니다</h3>
         </div>
         <div class="sns_box_right">
-            <p>❤️2</p>
-        </div>
-    </div>
-    <!-- 개별 sns -->
-    <div class="sns_box">
-        <div class="member_box">
-            <img src="../../assets/images/포도.jpg" class=" member_img">
-            <h3>이영환</h3>
-        </div>
-        <div>
-            <h3>님(이) 목표금액 90% 달성했습니다</h3>
-        </div>
-        <div class="sns_box_right">
-            <p>❤️5</p>
+            <p>❤️{{ sns.likes }}</p>
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            snsList: [
+                {
+                    name: '황근원',
+                    goalPercent: 50,
+                    likes: 2
+                },
+                {
+                    name: '이영환',
+                    goalPercent: 90,
+                    likes: 5
+                }
+            ]
+        }
+    }
+}
+</script>
 
 <style scoped>
 .sns_box {
@@ -36,6 +39,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    padding: 0 30px;
 }
 
 .sns_box:nth-child(2n),
@@ -47,7 +51,6 @@
     display: flex;
     margin-left: auto; 
     align-items: center;
-    padding-right: 30px;
 }
 
 .sns_box_right p {

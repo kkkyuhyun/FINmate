@@ -1,9 +1,11 @@
 <template>
     <div class="wrap">
         <div class="container">
+            <!-- 캘린더 -->
             <div class="item cal">
                 <div>캘린더</div>
             </div>
+            <!-- 그룹 -->
             <div class="item group">
                 <div class="group_box" @click="router_groupPage">
                     <div class="group_box_text">
@@ -20,6 +22,7 @@
                 <img src="../assets/images/boat.jpg" class="group_box_img"> </img>
                 </div>
             </div>
+            <!-- sns -->
             <div class="item sns">
                 <div>sns</div>
                 <div>sns</div>

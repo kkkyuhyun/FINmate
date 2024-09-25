@@ -73,6 +73,16 @@ img {
     justify-items: center;
 }
 
+/* 왼쪽으로 붙이기 */
+.left {
+    margin-right: auto;
+}
+
+/* 오른쪽으로 붙이기 */
+.right {
+    margin-left: auto;
+}
+
 .wrap {
     width: 100%;
     margin: auto;
