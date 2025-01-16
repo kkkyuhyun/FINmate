@@ -7,3 +7,5 @@
 | [@Yhwani](https://github.com/Yhwani) | [@Ruedal](https://github.com/Ruedal) | [@odeto1310](https://github.com/odeto1310) | [@kkkyuhyun](https://github.com/kkkyuhyun) | [@yyyygmin](https://github.com/yyyygmin) | [@hwang-won](https://github.com/hwang-won)
 <br />
 
+## 프로젝트 기록
+<a href="https://telling-columnist-d6b.notion.site/KB-IT-s-Your-Life-5-FINmate-112552d86e818199a40fe993117502ff?pvs=4></a>
