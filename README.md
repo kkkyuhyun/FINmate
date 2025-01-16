@@ -8,4 +8,4 @@
 <br />
 
 ## 프로젝트 기록
-<a href="https://telling-columnist-d6b.notion.site/KB-IT-s-Your-Life-5-FINmate-112552d86e818199a40fe993117502ff?pvs=4></a>
+<a href="https://telling-columnist-d6b.notion.site/KB-IT-s-Your-Life-5-FINmate-112552d86e818199a40fe993117502ff?pvs=4">Visit FINmate Project on Notion</a>
